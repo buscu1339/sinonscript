@@ -23,8 +23,8 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-        Title = "SION TỔNG HỢP BLOX FRUIT",
-        SubTitle = "Premium",
+        Title = "SINON TỔNG HỢP BLOX FRUIT",
+        SubTitle = "Fremium",
         TabWidth = 157,
         Size = UDim2.fromOffset(525, 320),
         Acrylic = false,
@@ -310,22 +310,7 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))() 
     end
 })    
-  Tabs.Main4:AddButton({
-    Title="Yamko sea 3",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/Yomkaa/daa5e464529c6b1d55573d73dbd77a0c/raw/12b1ab7d384aad2beea357b8f68c705a155fc1c8/YOMKA%20CHEST%20FARM%20(%20ONLY%20THIRD%20SEA)",true))()
-    end
-})
-
-
-    Tabs.Main4:AddButton({
-    Title="Yamko sea 2",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/Yomkaa/cb706db9b2f3862d11f17d2dd71aaa80/raw/d62aa5a6bf5d79647c236281fc0556c44778e5a6/YOMKA%20CHEST%20FARM%20(%20ONLY%20SECOND%20SEA)",true))()
-    end
-})    
+  
 
     Tabs.Main4:AddButton({
     Title="THUNDER Z CHEST",
@@ -364,7 +349,7 @@ Tabs.Main4:AddButton({
 
 
     Tabs.Main5:AddButton({
-    Title="COMMING SOON",
+    Title="Van Thanh and ACE aimbot",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()    
